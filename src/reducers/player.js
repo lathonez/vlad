@@ -1,12 +1,11 @@
-import {FETCH_PLAYER} from "../actions";
+import {FETCH_PLAYER} from '../actions';
+import _ from 'lodash';
 
 export default function(state = {}, action) {
 
-  console.log(action);
-
   switch (action.type) {
     case FETCH_PLAYER:
-      return action.payload;
+      return _.sample(action.payload.data);
     default:
       return state;
   }

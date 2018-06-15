@@ -14,7 +14,7 @@ class Picker extends Component {
       name, number, position, dateOfBirth, caps, goals, clubCountry, club, country, group
     } = this.props.player;
 
-    if (!this.props.player) {
+    if (!this.props.player.name) {
       return <div>loading..</div>
     }
 
