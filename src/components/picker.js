@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPlayer } from "../actions";
+import { fetchPlayers, samplePlayer } from '../actions';
+import { selectPlayer } from '../selectors';
 
 class Picker extends Component {
 
   componentDidMount() {
-    this.props.fetchPlayer();
+    this.props.fetchPlayers();
+  }
+
+  onClick() {
+    return this.props.samplePlayer(this.props.player.name);
   }
 
   renderPlayer() {
 
+    if (!this.props.player) {
+      return <div>loading..</div>
+    }
+
     const {
       name, number, position, dateOfBirth, caps, goals, clubCountry, club, country, group
     } = this.props.player;
-
-    if (!this.props.player.name) {
-      return <div>loading..</div>
-    }
 
     return (
       <div>
@@ -32,22 +37,21 @@ class Picker extends Component {
           <li>Goals: { goals }</li>
           <li>Domestic Club: { club } in { clubCountry }</li>
         </ul>
+        <button onClick={this.onClick.bind(this)}>Next</button>
       </div>
     );
   }
 
   render() {
-
-    console.log(this.props.player);
-
     return this.renderPlayer();
   }
 }
 
-function mapStateToProps( state ) {
-  return {
-    player: state.player
-  }
-}
+const mapStateToProps = state => {
 
-export default connect(mapStateToProps,  { fetchPlayer })(Picker);
+  return {
+    player: selectPlayer(state),
+  }
+};
+
+export default connect(mapStateToProps,  { fetchPlayers, samplePlayer })(Picker);

@@ -19,7 +19,7 @@
 		"caps": 21,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " West Bromwich Albion",
+		"club": "West Bromwich Albion",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -31,7 +31,7 @@
 		"caps": 78,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Aston Villa",
+		"club": "Aston Villa",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -55,7 +55,7 @@
 		"caps": 5,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Wigan Athletic",
+		"club": "Wigan Athletic",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -67,7 +67,7 @@
 		"caps": 45,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " West Bromwich Albion",
+		"club": "West Bromwich Albion",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -115,7 +115,7 @@
 		"caps": 57,
 		"goals": 33,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -163,7 +163,7 @@
 		"caps": 23,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Stoke City",
+		"club": "Stoke City",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -199,7 +199,7 @@
 		"caps": 61,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "Egypt",
 		"group": "A"
 	},
@@ -1351,7 +1351,7 @@
 		"caps": 46,
 		"goals": 9,
 		"clubCountry": "England",
-		"club": " Nottingham Forest",
+		"club": "Nottingham Forest",
 		"country": "Iran",
 		"group": "B"
 	},
@@ -1447,7 +1447,7 @@
 		"caps": 24,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Wolverhampton Wanderers",
+		"club": "Wolverhampton Wanderers",
 		"country": "Morocco",
 		"group": "B"
 	},
@@ -1770,7 +1770,7 @@
 		"caps": 36,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " West Ham United",
+		"club": "West Ham United",
 		"country": "Portugal",
 		"group": "B"
 	},
@@ -1782,7 +1782,7 @@
 		"caps": 25,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Portugal",
 		"group": "B"
 	},
@@ -1902,7 +1902,7 @@
 		"caps": 29,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Southampton",
+		"club": "Southampton",
 		"country": "Portugal",
 		"group": "B"
 	},
@@ -1926,7 +1926,7 @@
 		"caps": 23,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "Portugal",
 		"group": "B"
 	},
@@ -1938,7 +1938,7 @@
 		"caps": 29,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "Spain",
 		"group": "B"
 	},
@@ -2094,7 +2094,7 @@
 		"caps": 22,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Spain",
 		"group": "B"
 	},
@@ -2118,7 +2118,7 @@
 		"caps": 22,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "Spain",
 		"group": "B"
 	},
@@ -2178,7 +2178,7 @@
 		"caps": 121,
 		"goals": 35,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Spain",
 		"group": "B"
 	},
@@ -2214,7 +2214,7 @@
 		"caps": 44,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Brighton & Hove Albion",
+		"club": "Brighton & Hove Albion",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2238,7 +2238,7 @@
 		"caps": 2,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Millwall",
+		"club": "Millwall",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2250,7 +2250,7 @@
 		"caps": 106,
 		"goals": 50,
 		"clubCountry": "England",
-		"club": " Millwall",
+		"club": "Millwall",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2298,7 +2298,7 @@
 		"caps": 36,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Queens Park Rangers",
+		"club": "Queens Park Rangers",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2358,7 +2358,7 @@
 		"caps": 34,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Huddersfield Town",
+		"club": "Huddersfield Town",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2382,7 +2382,7 @@
 		"caps": 76,
 		"goals": 18,
 		"clubCountry": "England",
-		"club": " Aston Villa",
+		"club": "Aston Villa",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2466,7 +2466,7 @@
 		"caps": 19,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Hull City",
+		"club": "Hull City",
 		"country": "Australia",
 		"group": "C"
 	},
@@ -2490,7 +2490,7 @@
 		"caps": 35,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2538,7 +2538,7 @@
 		"caps": 3,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Ipswich Town",
+		"club": "Ipswich Town",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2550,7 +2550,7 @@
 		"caps": 16,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2598,7 +2598,7 @@
 		"caps": 78,
 		"goals": 22,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2634,7 +2634,7 @@
 		"caps": 12,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Huddersfield Town",
+		"club": "Huddersfield Town",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2646,7 +2646,7 @@
 		"caps": 11,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Brentford",
+		"club": "Brentford",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2670,7 +2670,7 @@
 		"caps": 1,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Huddersfield Town",
+		"club": "Huddersfield Town",
 		"country": "Denmark",
 		"group": "C"
 	},
@@ -2766,7 +2766,7 @@
 		"caps": 98,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "France",
 		"group": "C"
 	},
@@ -2826,7 +2826,7 @@
 		"caps": 54,
 		"goals": 9,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "France",
 		"group": "C"
 	},
@@ -2862,7 +2862,7 @@
 		"caps": 74,
 		"goals": 31,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "France",
 		"group": "C"
 	},
@@ -2910,7 +2910,7 @@
 		"caps": 24,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "France",
 		"group": "C"
 	},
@@ -3018,7 +3018,7 @@
 		"caps": 7,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "France",
 		"group": "C"
 	},
@@ -3246,7 +3246,7 @@
 		"caps": 45,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Watford",
+		"club": "Watford",
 		"country": "Peru",
 		"group": "C"
 	},
@@ -3497,7 +3497,7 @@
 		"caps": 56,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "Argentina",
 		"group": "D"
 	},
@@ -3509,7 +3509,7 @@
 		"caps": 54,
 		"goals": 4,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Argentina",
 		"group": "D"
 	},
@@ -3533,7 +3533,7 @@
 		"caps": 85,
 		"goals": 37,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Argentina",
 		"group": "D"
 	},
@@ -3581,7 +3581,7 @@
 		"caps": 3,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Argentina",
 		"group": "D"
 	},
@@ -3653,7 +3653,7 @@
 		"caps": 39,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "Croatia",
 		"group": "D"
 	},
@@ -3938,7 +3938,7 @@
 		"caps": 67,
 		"goals": 7,
 		"clubCountry": "England",
-		"club": " Burnley",
+		"club": "Burnley",
 		"country": "Iceland",
 		"group": "D"
 	},
@@ -3950,7 +3950,7 @@
 		"caps": 67,
 		"goals": 9,
 		"clubCountry": "England",
-		"club": " Aston Villa",
+		"club": "Aston Villa",
 		"country": "Iceland",
 		"group": "D"
 	},
@@ -3974,7 +3974,7 @@
 		"caps": 57,
 		"goals": 19,
 		"clubCountry": "England",
-		"club": " Everton",
+		"club": "Everton",
 		"country": "Iceland",
 		"group": "D"
 	},
@@ -4070,7 +4070,7 @@
 		"caps": 16,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Bristol City",
+		"club": "Bristol City",
 		"country": "Iceland",
 		"group": "D"
 	},
@@ -4118,7 +4118,7 @@
 		"caps": 38,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Reading",
+		"club": "Reading",
 		"country": "Iceland",
 		"group": "D"
 	},
@@ -4178,7 +4178,7 @@
 		"caps": 17,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "Nigeria",
 		"group": "D"
 	},
@@ -4260,7 +4260,7 @@
 		"caps": 34,
 		"goals": 11,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Nigeria",
 		"group": "D"
 	},
@@ -4296,7 +4296,7 @@
 		"caps": 18,
 		"goals": 8,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "Nigeria",
 		"group": "D"
 	},
@@ -4319,9 +4319,10 @@
 		"dateOfBirth": "8 March 1986",
 		"caps": 7,
 		"goals": 0,
-		"clubCountry": "South Africa Chippa United",
-		"club": "Nigeria",
-		"country": "D"
+		"clubCountry": "South Africa",
+		"club": "Chippa United",
+		"country": "Nigeria",
+		"group": "D"
 	},
 	{
 		"number": 17,
@@ -4343,7 +4344,7 @@
 		"caps": 19,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "Nigeria",
 		"group": "D"
 	},
@@ -4509,7 +4510,7 @@
 		"caps": 17,
 		"goals": 10,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Brazil",
 		"group": "E"
 	},
@@ -4569,7 +4570,7 @@
 		"caps": 18,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Brazil",
 		"group": "E"
 	},
@@ -4605,7 +4606,7 @@
 		"caps": 44,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Brazil",
 		"group": "E"
 	},
@@ -4628,7 +4629,7 @@
 		"caps": 57,
 		"goals": 8,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Brazil",
 		"group": "E"
 	},
@@ -4640,7 +4641,7 @@
 		"caps": 21,
 		"goals": 6,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "Brazil",
 		"group": "E"
 	},
@@ -4675,7 +4676,7 @@
 		"caps": 1,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Brazil",
 		"group": "E"
 	},
@@ -4771,7 +4772,7 @@
 		"caps": 44,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Sunderland",
+		"club": "Sunderland",
 		"country": "Costa Rica",
 		"group": "E"
 	},
@@ -4998,7 +4999,7 @@
 		"caps": 28,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Crystal Palace",
+		"club": "Crystal Palace",
 		"country": "Serbia",
 		"group": "E"
 	},
@@ -5058,7 +5059,7 @@
 		"caps": 37,
 		"goals": 16,
 		"clubCountry": "England",
-		"club": " Fulham",
+		"club": "Fulham",
 		"country": "Serbia",
 		"group": "E"
 	},
@@ -5070,7 +5071,7 @@
 		"caps": 53,
 		"goals": 13,
 		"clubCountry": "England",
-		"club": " Southampton",
+		"club": "Southampton",
 		"country": "Serbia",
 		"group": "E"
 	},
@@ -5201,7 +5202,7 @@
 		"caps": 40,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "Serbia",
 		"group": "E"
 	},
@@ -5345,7 +5346,7 @@
 		"caps": 62,
 		"goals": 9,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "Switzerland",
 		"group": "E"
 	},
@@ -5501,7 +5502,7 @@
 		"caps": 70,
 		"goals": 20,
 		"clubCountry": "England",
-		"club": " Stoke City",
+		"club": "Stoke City",
 		"country": "Switzerland",
 		"group": "E"
 	},
@@ -5621,7 +5622,7 @@
 		"caps": 90,
 		"goals": 23,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "Germany",
 		"group": "F"
 	},
@@ -5693,7 +5694,7 @@
 		"caps": 24,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Germany",
 		"group": "F"
 	},
@@ -5753,7 +5754,7 @@
 		"caps": 26,
 		"goals": 4,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Germany",
 		"group": "F"
 	},
@@ -5945,7 +5946,7 @@
 		"caps": 102,
 		"goals": 49,
 		"clubCountry": "England",
-		"club": " West Ham United",
+		"club": "West Ham United",
 		"country": "Mexico",
 		"group": "F"
 	},
@@ -6137,7 +6138,7 @@
 		"caps": 67,
 		"goals": 21,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "South Korea",
 		"group": "F"
 	},
@@ -6363,7 +6364,7 @@
 		"caps": 21,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "Sweden",
 		"group": "F"
 	},
@@ -6411,7 +6412,7 @@
 		"caps": 100,
 		"goals": 6,
 		"clubCountry": "England",
-		"club": " Hull City",
+		"club": "Hull City",
 		"country": "Sweden",
 		"group": "F"
 	},
@@ -6543,7 +6544,7 @@
 		"caps": 15,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Leeds United",
+		"club": "Leeds United",
 		"country": "Sweden",
 		"group": "F"
 	},
@@ -6615,7 +6616,7 @@
 		"caps": 58,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6627,7 +6628,7 @@
 		"caps": 77,
 		"goals": 3,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6651,7 +6652,7 @@
 		"caps": 77,
 		"goals": 4,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6663,7 +6664,7 @@
 		"caps": 102,
 		"goals": 8,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6686,7 +6687,7 @@
 		"caps": 62,
 		"goals": 14,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6698,7 +6699,7 @@
 		"caps": 82,
 		"goals": 17,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6710,7 +6711,7 @@
 		"caps": 69,
 		"goals": 36,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6722,7 +6723,7 @@
 		"caps": 86,
 		"goals": 22,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6745,7 +6746,7 @@
 		"caps": 21,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6829,7 +6830,7 @@
 		"caps": 76,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6865,7 +6866,7 @@
 		"caps": 45,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " West Bromwich Albion",
+		"club": "West Bromwich Albion",
 		"country": "Belgium",
 		"group": "G"
 	},
@@ -6889,7 +6890,7 @@
 		"caps": 3,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Everton",
+		"club": "Everton",
 		"country": "England",
 		"group": "G"
 	},
@@ -6901,7 +6902,7 @@
 		"caps": 35,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "England",
 		"group": "G"
 	},
@@ -6913,7 +6914,7 @@
 		"caps": 18,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "England",
 		"group": "G"
 	},
@@ -6925,7 +6926,7 @@
 		"caps": 26,
 		"goals": 3,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "England",
 		"group": "G"
 	},
@@ -6937,7 +6938,7 @@
 		"caps": 26,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "England",
 		"group": "G"
 	},
@@ -6949,7 +6950,7 @@
 		"caps": 5,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "England",
 		"group": "G"
 	},
@@ -6961,7 +6962,7 @@
 		"caps": 12,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "England",
 		"group": "G"
 	},
@@ -6973,7 +6974,7 @@
 		"caps": 39,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "England",
 		"group": "G"
 	},
@@ -6985,7 +6986,7 @@
 		"caps": 24,
 		"goals": 13,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "England",
 		"group": "G"
 	},
@@ -6997,7 +6998,7 @@
 		"caps": 38,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "England",
 		"group": "G"
 	},
@@ -7009,7 +7010,7 @@
 		"caps": 22,
 		"goals": 7,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "England",
 		"group": "G"
 	},
@@ -7021,7 +7022,7 @@
 		"caps": 7,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "England",
 		"group": "G"
 	},
@@ -7033,7 +7034,7 @@
 		"caps": 8,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Stoke City",
+		"club": "Stoke City",
 		"country": "England",
 		"group": "G"
 	},
@@ -7045,7 +7046,7 @@
 		"caps": 39,
 		"goals": 16,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "England",
 		"group": "G"
 	},
@@ -7057,7 +7058,7 @@
 		"caps": 60,
 		"goals": 5,
 		"clubCountry": "England",
-		"club": " Chelsea",
+		"club": "Chelsea",
 		"country": "England",
 		"group": "G"
 	},
@@ -7069,7 +7070,7 @@
 		"caps": 25,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "England",
 		"group": "G"
 	},
@@ -7081,7 +7082,7 @@
 		"caps": 11,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Manchester City",
+		"club": "Manchester City",
 		"country": "England",
 		"group": "G"
 	},
@@ -7093,7 +7094,7 @@
 		"caps": 34,
 		"goals": 7,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "England",
 		"group": "G"
 	},
@@ -7105,7 +7106,7 @@
 		"caps": 19,
 		"goals": 3,
 		"clubCountry": "England",
-		"club": " Manchester United",
+		"club": "Manchester United",
 		"country": "England",
 		"group": "G"
 	},
@@ -7117,7 +7118,7 @@
 		"caps": 25,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "England",
 		"group": "G"
 	},
@@ -7129,7 +7130,7 @@
 		"caps": 4,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Crystal Palace",
+		"club": "Crystal Palace",
 		"country": "England",
 		"group": "G"
 	},
@@ -7141,7 +7142,7 @@
 		"caps": 1,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "England",
 		"group": "G"
 	},
@@ -7153,7 +7154,7 @@
 		"caps": 1,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Burnley",
+		"club": "Burnley",
 		"country": "England",
 		"group": "G"
 	},
@@ -7465,7 +7466,7 @@
 		"caps": 4,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "Tunisa",
 		"group": "G"
 	},
@@ -7717,7 +7718,7 @@
 		"caps": 86,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Arsenal",
+		"club": "Arsenal",
 		"country": "Columbia",
 		"group": "H"
 	},
@@ -7957,7 +7958,7 @@
 		"caps": 5,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Brighton & Hove Albion",
+		"club": "Brighton & Hove Albion",
 		"country": "Columbia",
 		"group": "H"
 	},
@@ -7981,7 +7982,7 @@
 		"caps": 9,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Tottenham Hotspur",
+		"club": "Tottenham Hotspur",
 		"country": "Columbia",
 		"group": "H"
 	},
@@ -8089,7 +8090,7 @@
 		"caps": 113,
 		"goals": 50,
 		"clubCountry": "England",
-		"club": " Leicester City",
+		"club": "Leicester City",
 		"country": "Japan",
 		"group": "H"
 	},
@@ -8245,7 +8246,7 @@
 		"caps": 82,
 		"goals": 10,
 		"clubCountry": "England",
-		"club": " Southampton",
+		"club": "Southampton",
 		"country": "Japan",
 		"group": "H"
 	},
@@ -8317,7 +8318,7 @@
 		"caps": 3,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Southampton",
+		"club": "Southampton",
 		"country": "Poland",
 		"group": "H"
 	},
@@ -8377,7 +8378,7 @@
 		"caps": 51,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " West Bromwich Albion",
+		"club": "West Bromwich Albion",
 		"country": "Poland",
 		"group": "H"
 	},
@@ -8389,7 +8390,7 @@
 		"caps": 57,
 		"goals": 12,
 		"clubCountry": "England",
-		"club": " Hull City",
+		"club": "Hull City",
 		"country": "Poland",
 		"group": "H"
 	},
@@ -8401,7 +8402,7 @@
 		"caps": 1,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Ipswich Town",
+		"club": "Ipswich Town",
 		"country": "Poland",
 		"group": "H"
 	},
@@ -8593,7 +8594,7 @@
 		"caps": 61,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Everton",
+		"club": "Everton",
 		"country": "Senegal",
 		"group": "H"
 	},
@@ -8629,7 +8630,7 @@
 		"caps": 48,
 		"goals": 2,
 		"clubCountry": "England",
-		"club": " West Ham United",
+		"club": "West Ham United",
 		"country": "Senegal",
 		"group": "H"
 	},
@@ -8641,7 +8642,7 @@
 		"caps": 49,
 		"goals": 10,
 		"clubCountry": "England",
-		"club": " Stoke City",
+		"club": "Stoke City",
 		"country": "Senegal",
 		"group": "H"
 	},
@@ -8653,7 +8654,7 @@
 		"caps": 53,
 		"goals": 14,
 		"clubCountry": "England",
-		"club": " Liverpool",
+		"club": "Liverpool",
 		"country": "Senegal",
 		"group": "H"
 	},
@@ -8665,7 +8666,7 @@
 		"caps": 26,
 		"goals": 3,
 		"clubCountry": "England",
-		"club": " Birmingham City",
+		"club": "Birmingham City",
 		"country": "Senegal",
 		"group": "H"
 	},
@@ -8689,7 +8690,7 @@
 		"caps": 21,
 		"goals": 0,
 		"clubCountry": "England",
-		"club": " Wolverhampton Wanderers",
+		"club": "Wolverhampton Wanderers",
 		"country": "Senegal",
 		"group": "H"
 	},
@@ -8736,7 +8737,7 @@
 		"caps": 20,
 		"goals": 1,
 		"clubCountry": "England",
-		"club": " Stoke City",
+		"club": "Stoke City",
 		"country": "Senegal",
 		"group": "H"
 	},
