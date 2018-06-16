@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchPlayers, samplePlayer } from '../actions';
-import { selectPlayer } from '../selectors';
 
 class Picker extends Component {
 
   componentDidMount() {
     this.props.fetchPlayers();
-  }
-
-  onClick() {
-    return this.props.samplePlayer(this.props.player.name);
   }
 
   renderPlayer() {
@@ -37,7 +32,7 @@ class Picker extends Component {
           <li>Goals: { goals }</li>
           <li>Domestic Club: { club } in { clubCountry }</li>
         </ul>
-        <button onClick={this.onClick.bind(this)}>Next</button>
+        <button onClick={this.props.samplePlayer}>Next</button>
       </div>
     );
   }
@@ -48,10 +43,7 @@ class Picker extends Component {
 }
 
 const mapStateToProps = state => {
-
-  return {
-    player: selectPlayer(state),
-  }
+  return { player: state.player };
 };
 
 export default connect(mapStateToProps,  { fetchPlayers, samplePlayer })(Picker);

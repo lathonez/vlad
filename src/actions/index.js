@@ -21,13 +21,15 @@ export function fetchPlayers(players) {
   };
 }
 
-export function samplePlayer(previousPlayer) {
+export function samplePlayer() {
+  return (dispatch, getState) => {
 
-  console.log(previousPlayer);
+    const {players, player, seenPlayers} = getState();
 
-  return {
-    type: SAMPLE_PLAYER,
-    payload: previousPlayer
-  }
+    dispatch({
+      type: SAMPLE_PLAYER,
+      payload: {players, seenPlayers, player}
+    });
+  };
 }
 
