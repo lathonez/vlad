@@ -1722,9 +1722,10 @@
 		"dateOfBirth": "22 December 1983",
 		"caps": 31,
 		"goals": 0,
-		"clubCountry": "China Dalian Yifang",
-		"club": "Portugal",
-		"country": "B"
+		"clubCountry": "China",
+		"club": "Dalian Yifang",
+		"country": "Portugal",
+		"group": "B"
 	},
 	{
 		"number": 7,
@@ -3473,9 +3474,10 @@
 		"dateOfBirth": "8 June 1984",
 		"caps": 143,
 		"goals": 3,
-		"clubCountry": "China Hebei China Fortune",
-		"club": "Argentina",
-		"country": "D"
+		"clubCountry": "China",
+		"club": "Hebei China Fortune",
+		"country": "Argentina",
+		"group": "D"
 	},
 	{
 		"number": 15,
@@ -3760,9 +3762,10 @@
 		"dateOfBirth": "17 September 1996",
 		"caps": 1,
 		"goals": 0,
-		"clubCountry": "Austria Red Bull Salzburg",
-		"club": "Croatia",
-		"country": "D"
+		"clubCountry": "Austria",
+		"club": "Red Bull Salzburg",
+		"country": "Croatia",
+		"group": "D"
 	},
 	{
 		"number": 16,
@@ -3843,9 +3846,10 @@
 		"dateOfBirth": "30 January 1989",
 		"caps": 19,
 		"goals": 0,
-		"clubCountry": "Ukraine Dynamo Kyiv",
-		"club": "Croatia",
-		"country": "D"
+		"clubCountry": "Ukraine",
+		"club": "Dynamo Kyiv",
+		"country": "Croatia",
+		"group": "D"
 	},
 	{
 		"number": 23,
@@ -3890,9 +3894,10 @@
 		"dateOfBirth": "22 February 1996",
 		"caps": 4,
 		"goals": 0,
-		"clubCountry": "Norway Vålerenga",
-		"club": "Iceland",
-		"country": "D"
+		"clubCountry": "Vålerenga",
+		"club": "Norway",
+		"country": "Iceland",
+		"group": "D"
 	},
 	{
 		"number": 4,
@@ -4237,9 +4242,10 @@
 		"dateOfBirth": "16 June 1989",
 		"caps": 19,
 		"goals": 4,
-		"clubCountry": "China Changchun Yatai",
-		"club": "Nigeria",
-		"country": "D"
+		"clubCountry": "China",
+		"club": "Changchun Yatai",
+		"country": "Nigeria",
+		"group": "D"
 	},
 	{
 		"number": 10,
@@ -4248,9 +4254,10 @@
 		"dateOfBirth": "22 April 1987",
 		"caps": 85,
 		"goals": 6,
-		"clubCountry": "China Tianjin TEDA",
-		"club": "Nigeria",
-		"country": "D"
+		"clubCountry": "China",
+		"club": "Tianjin TEDA",
+		"country": "Nigeria",
+		"group": "D"
 	},
 	{
 		"number": 11,
@@ -4355,9 +4362,10 @@
 		"dateOfBirth": "20 April 1988",
 		"caps": 20,
 		"goals": 2,
-		"clubCountry": "Israel Hapoel Beer Sheva",
-		"club": "Nigeria",
-		"country": "D"
+		"clubCountry": "Israel",
+		"club": "Hapoel Beer Sheva",
+		"country": "Nigeria",
+		"group": "D"
 	},
 	{
 		"number": 20,
@@ -4498,9 +4506,10 @@
 		"dateOfBirth": "8 February 1988",
 		"caps": 28,
 		"goals": 5,
-		"clubCountry": "China Beijing Sinobo Guoan",
-		"club": "Brazil",
-		"country": "E"
+		"clubCountry": "China",
+		"club": "Beijing Sinobo Guoan",
+		"country": "Brazil",
+		"group": "E"
 	},
 	{
 		"number": 9,
@@ -4617,9 +4626,10 @@
 		"dateOfBirth": "5 March 1993",
 		"caps": 8,
 		"goals": 0,
-		"clubCountry": "Ukraine Shakhtar Donetsk",
-		"club": "Brazil",
-		"country": "E"
+		"clubCountry": "Ukraine",
+		"club": "Shakhtar Donetsk",
+		"country": "Brazil",
+		"group": "E"
 	},
 	{
 		"number": 19,
@@ -4652,9 +4662,10 @@
 		"dateOfBirth": "13 January 1988",
 		"caps": 8,
 		"goals": 1,
-		"clubCountry": "Ukraine Shakhtar Donetsk",
-		"club": "Brazil",
-		"country": "E"
+		"clubCountry": "Ukraine",
+		"club": "Shakhtar Donetsk",
+		"country": "Brazil",
+		"group": "E"
 	},
 	{
 		"number": 22,
@@ -4903,9 +4914,10 @@
 		"dateOfBirth": "1 January 1988",
 		"caps": 26,
 		"goals": 3,
-		"clubCountry": "Canada Vancouver Whitecaps FC",
-		"club": "Costa Rica",
-		"country": "E"
+		"clubCountry": "Canada",
+		"club": "Vancouver Whitecaps FC",
+		"country": "Costa Rica",
+		"group": "E"
 	},
 	{
 		"number": 20,
@@ -5094,9 +5106,10 @@
 		"dateOfBirth": "31 October 1995",
 		"caps": 8,
 		"goals": 0,
-		"clubCountry": "Israel Maccabi Tel Aviv",
-		"club": "Serbia",
-		"country": "E"
+		"clubCountry": "Israel",
+		"club": "Maccabi Tel Aviv",
+		"country": "Serbia",
+		"group": "E"
 	},
 	{
 		"number": 13,
@@ -6185,9 +6198,10 @@
 		"dateOfBirth": "26 January 1996",
 		"caps": 14,
 		"goals": 2,
-		"clubCountry": "Austria Red Bull Salzburg",
-		"club": "South Korea",
-		"country": "F"
+		"clubCountry": "Austria",
+		"club": "Red Bull Salzburg",
+		"country": "South Korea",
+		"group": "F"
 	},
 	{
 		"number": 12,
@@ -6280,9 +6294,10 @@
 		"dateOfBirth": "27 February 1990",
 		"caps": 53,
 		"goals": 2,
-		"clubCountry": "China Guangzhou Evergrande",
-		"club": "South Korea",
-		"country": "F"
+		"clubCountry": "China",
+		"club": "Guangzhou Evergrande",
+		"country": "South Korea",
+		"group": "F"
 	},
 	{
 		"number": 20,
@@ -6675,9 +6690,10 @@
 		"dateOfBirth": "12 January 1989",
 		"caps": 90,
 		"goals": 9,
-		"clubCountry": "China Tianjin Quanjian",
-		"club": "Belgium",
-		"country": "G"
+		"clubCountry": "China",
+		"club": "Tianjin Quanjian",
+		"country": "Belgium",
+		"group": "G"
 	},
 	{
 		"number": 7,
@@ -6734,9 +6750,10 @@
 		"dateOfBirth": "4 September 1993",
 		"caps": 26,
 		"goals": 5,
-		"clubCountry": "China Dalian Yifang",
-		"club": "Belgium",
-		"country": "G"
+		"clubCountry": "China",
+		"club": "Dalian Yifang",
+		"country": "Belgium",
+		"group": "G"
 	},
 	{
 		"number": 12,
@@ -8725,9 +8742,10 @@
 		"dateOfBirth": "5 April 1985",
 		"caps": 26,
 		"goals": 0,
-		"clubCountry": "Guinea Horoya",
-		"club": "Senegal",
-		"country": "H"
+		"clubCountry": "Guinea",
+		"club": "Horoya",
+		"country": "Senegal",
+		"group": "H"
 	},
 	{
 		"number": 17,
