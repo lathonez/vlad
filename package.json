@@ -21,6 +21,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "ajv": "^6.5.1"
+    "ajv": "^6.5.1",
+    "redux-devtools-extension": "^2.13.2"
   }
 }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPlayers, samplePlayer } from '../actions';
+import { samplePlayer } from '../actions';
 
 class Picker extends Component {
 
   componentDidMount() {
-    this.props.fetchPlayers();
+    this.props.samplePlayer();
   }
 
   renderPlayer() {
@@ -46,4 +46,4 @@ const mapStateToProps = state => {
   return { player: state.player };
 };
 
-export default connect(mapStateToProps,  { fetchPlayers, samplePlayer })(Picker);
+export default connect(mapStateToProps,  { samplePlayer })(Picker);

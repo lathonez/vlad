@@ -1,35 +1,35 @@
 import axios from 'axios';
+import _ from 'lodash';
 
-export const FETCH_PLAYERS = 'fetch_players';
 export const SAMPLE_PLAYER = 'sample_player';
-
-export function fetchPlayers(players) {
-
-  // cache
-  if (players) {
-    return {
-      type: FETCH_PLAYERS,
-      payload: Promise.resolve({data: players})
-    };
-  }
-
-  const prom = axios.get('https://raw.githubusercontent.com/lathonez/vlad/master/public/wc-2018-squads.json');
-
-  return {
-    type: FETCH_PLAYERS,
-    payload: prom
-  };
-}
 
 export function samplePlayer() {
   return (dispatch, getState) => {
 
-    const {players, player, seenPlayers} = getState();
+    const {players, seenPlayers} = getState();
 
-    dispatch({
-      type: SAMPLE_PLAYER,
-      payload: {players, seenPlayers, player}
+    // no players, need to fetch then sample
+    getPlayers(players)
+      .then(players => {
+        dispatch({
+          type: SAMPLE_PLAYER,
+          payload: {
+            player: _samplePlayer(players, seenPlayers),
+            players: players
+          }
+        });
     });
   };
 }
 
+const getPlayers = (players) => {
+
+  if (players.length) {
+    return Promise.resolve(players);
+  }
+
+  return axios.get('https://raw.githubusercontent.com/lathonez/vlad/master/public/wc-2018-squads.json')
+    .then(response => response.data);
+};
+
+const _samplePlayer = (players, seenPlayers) => _.sample(_.reject(players, player => _.includes(seenPlayers, player.name)));
