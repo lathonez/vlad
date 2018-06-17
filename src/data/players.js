@@ -1,4 +1,6 @@
-[
+import _ from 'lodash';
+
+const all_players = [
 	{
 		"number": 1,
 		"position": "GK",
@@ -9,7 +11,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Taawoun",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 2,
@@ -21,7 +24,8 @@
 		"clubCountry": "England",
 		"club": "West Bromwich Albion",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 3,
@@ -93,7 +97,8 @@
 		"clubCountry": "Egypt",
 		"club": "Zamalek",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 9,
@@ -129,7 +134,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ittihad",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 12,
@@ -141,7 +147,8 @@
 		"clubCountry": "Egypt",
 		"club": "Al Ahly",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -153,7 +160,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Fateh",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -165,7 +173,8 @@
 		"clubCountry": "England",
 		"club": "Stoke City",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 15,
@@ -177,7 +186,8 @@
 		"clubCountry": "Egypt",
 		"club": "Zamalek",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -213,7 +223,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Raed",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -237,7 +248,8 @@
 		"clubCountry": "Egypt",
 		"club": "Al Ahly",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 21,
@@ -261,7 +273,8 @@
 		"clubCountry": "Greece",
 		"club": "Atromitos",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -273,7 +286,8 @@
 		"clubCountry": "Egypt",
 		"club": "Al Ahly",
 		"country": "Egypt",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -573,7 +587,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 3,
@@ -597,7 +612,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Hilal",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -621,7 +637,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Hilal",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 7,
@@ -645,7 +662,8 @@
 		"clubCountry": "Spain",
 		"club": "Leganés",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 9,
@@ -693,7 +711,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Hilal",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -717,7 +736,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Hilal",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 15,
@@ -729,7 +749,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Shabab",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -741,7 +762,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 17,
@@ -753,7 +775,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -765,7 +788,8 @@
 		"clubCountry": "Spain",
 		"club": "Villarreal",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -777,7 +801,8 @@
 		"clubCountry": "Spain",
 		"club": "Levante",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -789,7 +814,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 21,
@@ -801,7 +827,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 22,
@@ -825,7 +852,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Saudi Arabia",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -873,7 +901,8 @@
 		"clubCountry": "Uruguay",
 		"club": "Peñarol",
 		"country": "Uruguay",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -1029,7 +1058,8 @@
 		"clubCountry": "Italy",
 		"club": "Genoa",
 		"country": "Uruguay",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -1041,7 +1071,8 @@
 		"clubCountry": "Spain",
 		"club": "Celta Vigo",
 		"country": "Uruguay",
-		"group": "A"
+		"group": "A",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -1449,7 +1480,8 @@
 		"clubCountry": "England",
 		"club": "Wolverhampton Wanderers",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 7,
@@ -1461,7 +1493,8 @@
 		"clubCountry": "Netherlands",
 		"club": "Ajax",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 8,
@@ -1485,7 +1518,8 @@
 		"clubCountry": "Morocco",
 		"club": "RS Berkane",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 10,
@@ -1521,7 +1555,8 @@
 		"clubCountry": "Spain",
 		"club": "Numancia",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -1533,7 +1568,8 @@
 		"clubCountry": "Turkey",
 		"club": "Yeni Malatyaspor",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -1557,7 +1593,8 @@
 		"clubCountry": "France",
 		"club": "Caen",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -1605,7 +1642,8 @@
 		"clubCountry": "Spain",
 		"club": "Málaga",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -1629,7 +1667,8 @@
 		"clubCountry": "Netherlands",
 		"club": "Feyenoord",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 22,
@@ -1641,7 +1680,8 @@
 		"clubCountry": "Morocco",
 		"club": "IR Tanger",
 		"country": "Morocco",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -1809,7 +1849,8 @@
 		"clubCountry": "Portugal",
 		"club": "Benfica",
 		"country": "Portugal",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -1833,7 +1874,8 @@
 		"clubCountry": "Portugal",
 		"club": "Porto",
 		"country": "Portugal",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -1881,7 +1923,8 @@
 		"clubCountry": "Italy",
 		"club": "Napoli",
 		"country": "Portugal",
-		"group": "B"
+		"group": "B",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -2613,7 +2656,8 @@
 		"clubCountry": "France",
 		"club": "Bordeaux",
 		"country": "Denmark",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 12,
@@ -2697,7 +2741,8 @@
 		"clubCountry": "France",
 		"club": "Bordeaux",
 		"country": "Denmark",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -2745,7 +2790,8 @@
 		"clubCountry": "Denmark",
 		"club": "Brøndby",
 		"country": "Denmark",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -3081,7 +3127,8 @@
 		"clubCountry": "Mexico",
 		"club": "Puebla",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -3093,7 +3140,8 @@
 		"clubCountry": "Peru",
 		"club": "Alianza Lima",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 6,
@@ -3165,7 +3213,8 @@
 		"clubCountry": "Mexico",
 		"club": "Morelia",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 12,
@@ -3201,7 +3250,8 @@
 		"clubCountry": "United States",
 		"club": "Portland Timbers",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 15,
@@ -3225,7 +3275,8 @@
 		"clubCountry": "Mexico",
 		"club": "Veracruz",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 17,
@@ -3237,7 +3288,8 @@
 		"clubCountry": "Mexico",
 		"club": "Lobos BUAP",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -3297,7 +3349,8 @@
 		"clubCountry": "Peru",
 		"club": "Melgar",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -3309,7 +3362,8 @@
 		"clubCountry": "Mexico",
 		"club": "Lobos BUAP",
 		"country": "Peru",
-		"group": "C"
+		"group": "C",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -3465,7 +3519,8 @@
 		"clubCountry": "Argentina",
 		"club": "Independiente",
 		"country": "Argentina",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -3597,7 +3652,8 @@
 		"clubCountry": "Croatia",
 		"club": "Dinamo Zagreb",
 		"country": "Croatia",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 2,
@@ -3825,7 +3881,8 @@
 		"clubCountry": "Germany",
 		"club": "Schalke 04",
 		"country": "Croatia",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 21,
@@ -3897,7 +3954,8 @@
 		"clubCountry": "Vålerenga",
 		"club": "Norway",
 		"country": "Iceland",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 4,
@@ -3909,7 +3967,8 @@
 		"clubCountry": "Netherlands",
 		"club": "PSV Eindhoven",
 		"country": "Iceland",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -4005,7 +4064,8 @@
 		"clubCountry": "Denmark",
 		"club": "Roskilde",
 		"country": "Iceland",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -4017,7 +4077,8 @@
 		"clubCountry": "Denmark",
 		"club": "Nordsjælland",
 		"country": "Iceland",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -4053,7 +4114,8 @@
 		"clubCountry": "Turkey",
 		"club": "Kardemir Karabükspor",
 		"country": "Iceland",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 17,
@@ -4149,7 +4211,8 @@
 		"clubCountry": "Nigeria",
 		"club": "Enyimba",
 		"country": "Nigeria",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 2,
@@ -4173,7 +4236,8 @@
 		"clubCountry": "Belgium",
 		"club": "Cercle Brugge",
 		"country": "Nigeria",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 4,
@@ -4293,7 +4357,8 @@
 		"clubCountry": "Italy",
 		"club": "Crotone",
 		"country": "Nigeria",
-		"group": "D"
+		"group": "D",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -5049,7 +5114,8 @@
 		"clubCountry": "Portugal",
 		"club": "Benfica",
 		"country": "Serbia",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 8,
@@ -5121,7 +5187,8 @@
 		"clubCountry": "Germany",
 		"club": "Werder Bremen",
 		"country": "Serbia",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 14,
@@ -5145,7 +5212,8 @@
 		"clubCountry": "Italy",
 		"club": "Fiorentina",
 		"country": "Serbia",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -5193,7 +5261,8 @@
 		"clubCountry": "Germany",
 		"club": "Eintracht Frankfurt",
 		"country": "Serbia",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -5205,7 +5274,8 @@
 		"clubCountry": "Italy",
 		"club": "Lazio",
 		"country": "Serbia",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 21,
@@ -5289,7 +5359,8 @@
 		"clubCountry": "Germany",
 		"club": "Borussia Mönchengladbach",
 		"country": "Switzerland",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -5445,7 +5516,8 @@
 		"clubCountry": "Germany",
 		"club": "Borussia Mönchengladbach",
 		"country": "Switzerland",
-		"group": "E"
+		"group": "E",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -6045,7 +6117,8 @@
 		"clubCountry": "Mexico",
 		"club": "América",
 		"country": "Mexico",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 22,
@@ -6069,7 +6142,8 @@
 		"clubCountry": "Mexico",
 		"club": "UNAM",
 		"country": "Mexico",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -6105,7 +6179,8 @@
 		"clubCountry": "Japan",
 		"club": "Sagan Tosu",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 4,
@@ -6117,7 +6192,8 @@
 		"clubCountry": "South Korea",
 		"club": "Jeju United",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -6129,7 +6205,8 @@
 		"clubCountry": "South Korea",
 		"club": "Seongnam FC",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 6,
@@ -6165,7 +6242,8 @@
 		"clubCountry": "South Korea",
 		"club": "Asan Mugunghwa",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 9,
@@ -6213,7 +6291,8 @@
 		"clubCountry": "South Korea",
 		"club": "Sangju Sangmu",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -6237,7 +6316,8 @@
 		"clubCountry": "South Korea",
 		"club": "Sangju Sangmu",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 15,
@@ -6273,7 +6353,8 @@
 		"clubCountry": "South Korea",
 		"club": "Jeonbuk Hyundai Motors",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -6333,7 +6414,8 @@
 		"clubCountry": "South Korea",
 		"club": "FC Seoul",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -6345,7 +6427,8 @@
 		"clubCountry": "South Korea",
 		"club": "Daegu FC",
 		"country": "South Korea",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -6489,7 +6572,8 @@
 		"clubCountry": "France",
 		"club": "Guingamp",
 		"country": "Sweden",
-		"group": "F"
+		"group": "F",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -7197,7 +7281,8 @@
 		"clubCountry": "United States",
 		"club": "New York Red Bulls",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 3,
@@ -7221,7 +7306,8 @@
 		"clubCountry": "United States",
 		"club": "New York Red Bulls",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -7293,7 +7379,8 @@
 		"clubCountry": "Spain",
 		"club": "Deportivo Fabril",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 11,
@@ -7305,7 +7392,8 @@
 		"clubCountry": "Chile",
 		"club": "Universidad de Chile",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 12,
@@ -7317,7 +7405,8 @@
 		"clubCountry": "Panama",
 		"club": "Chorrillo",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -7353,7 +7442,8 @@
 		"clubCountry": "Slovakia",
 		"club": "Dunajská Streda",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -7377,7 +7467,8 @@
 		"clubCountry": "Honduras",
 		"club": "CD Olimpia",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -7401,7 +7492,8 @@
 		"clubCountry": "Belgium",
 		"club": "Gent",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -7425,7 +7517,8 @@
 		"clubCountry": "Belgium",
 		"club": "Gent",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 22,
@@ -7437,7 +7530,8 @@
 		"clubCountry": "Panama",
 		"club": "San Francisco",
 		"country": "Panama",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -7461,7 +7555,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Shabab",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 2,
@@ -7497,7 +7592,8 @@
 		"clubCountry": "Tunisia",
 		"club": "CS Sfaxien",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 5,
@@ -7509,7 +7605,8 @@
 		"clubCountry": "France",
 		"club": "Dijon",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 6,
@@ -7521,7 +7618,8 @@
 		"clubCountry": "Tunisia",
 		"club": "Étoile du Sahel",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 7,
@@ -7533,7 +7631,8 @@
 		"clubCountry": "France",
 		"club": "Troyes",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 8,
@@ -7545,7 +7644,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ettifaq",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 9,
@@ -7581,7 +7681,8 @@
 		"clubCountry": "Belgium",
 		"club": "Gent",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 12,
@@ -7617,7 +7718,8 @@
 		"clubCountry": "Saudi Arabia",
 		"club": "Al-Ahli",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 15,
@@ -7665,7 +7767,8 @@
 		"clubCountry": "France",
 		"club": "Nice",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -7701,7 +7804,8 @@
 		"clubCountry": "Egypt",
 		"club": "Zamalek",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 22,
@@ -7713,7 +7817,8 @@
 		"clubCountry": "France",
 		"club": "Châteauroux",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -7725,7 +7830,8 @@
 		"clubCountry": "France",
 		"club": "Dijon",
 		"country": "Tunisa",
-		"group": "G"
+		"group": "G",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -7761,7 +7867,8 @@
 		"clubCountry": "Mexico",
 		"club": "Pachuca",
 		"country": "Columbia",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 4,
@@ -7893,7 +8000,8 @@
 		"clubCountry": "Spain",
 		"club": "Sevilla",
 		"country": "Columbia",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 15,
@@ -7905,7 +8013,8 @@
 		"clubCountry": "Mexico",
 		"club": "América",
 		"country": "Columbia",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 16,
@@ -7929,7 +8038,8 @@
 		"clubCountry": "Spain",
 		"club": "Girona",
 		"country": "Columbia",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -7989,7 +8099,8 @@
 		"clubCountry": "Colombia",
 		"club": "Once Caldas",
 		"country": "Columbia",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -8025,7 +8136,8 @@
 		"clubCountry": "Japan",
 		"club": "Kashima Antlers",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 3,
@@ -8037,7 +8149,8 @@
 		"clubCountry": "Japan",
 		"club": "Kashima Antlers",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 4,
@@ -8073,7 +8186,8 @@
 		"clubCountry": "Japan",
 		"club": "Urawa Red Diamonds",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 7,
@@ -8085,7 +8199,8 @@
 		"clubCountry": "Spain",
 		"club": "Getafe",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 8,
@@ -8097,7 +8212,8 @@
 		"clubCountry": "Germany",
 		"club": "Fortuna Düsseldorf",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 9,
@@ -8145,7 +8261,8 @@
 		"clubCountry": "Japan",
 		"club": "Gamba Osaka",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -8193,7 +8310,8 @@
 		"clubCountry": "Japan",
 		"club": "Cerezo Osaka",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 17,
@@ -8217,7 +8335,8 @@
 		"clubCountry": "Japan",
 		"club": "Kawasaki Frontale",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -8229,7 +8348,8 @@
 		"clubCountry": "France",
 		"club": "Marseille",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -8277,7 +8397,8 @@
 		"clubCountry": "Japan",
 		"club": "Kashiwa Reysol",
 		"country": "Japan",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 1,
@@ -8349,7 +8470,8 @@
 		"clubCountry": "Bulgaria",
 		"club": "Ludogorets Razgrad",
 		"country": "Poland",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 7,
@@ -8505,7 +8627,8 @@
 		"clubCountry": "Italy",
 		"club": "Napoli",
 		"country": "Poland",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 20,
@@ -8529,7 +8652,8 @@
 		"clubCountry": "Poland",
 		"club": "Górnik Zabrze",
 		"country": "Poland",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 22,
@@ -8625,7 +8749,8 @@
 		"clubCountry": "Germany",
 		"club": "Hannover 96",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 7,
@@ -8697,7 +8822,8 @@
 		"clubCountry": "France",
 		"club": "Bordeaux",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 13,
@@ -8745,7 +8871,8 @@
 		"clubCountry": "Guinea",
 		"club": "Horoya",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 17,
@@ -8757,7 +8884,8 @@
 		"clubCountry": "England",
 		"club": "Stoke City",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 18,
@@ -8769,7 +8897,8 @@
 		"clubCountry": "France",
 		"club": "Rennes",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 19,
@@ -8793,7 +8922,8 @@
 		"clubCountry": "France",
 		"club": "Monaco",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 21,
@@ -8817,7 +8947,8 @@
 		"clubCountry": "Belgium",
 		"club": "Eupen",
 		"country": "Senegal",
-		"group": "H"
+		"group": "H",
+		"missingImage": true
 	},
 	{
 		"number": 23,
@@ -8832,3 +8963,5 @@
 		"group": "H"
 	}
 ]
+
+export const PLAYERS = _.reject(all_players, player => player.missingImage);
