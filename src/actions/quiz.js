@@ -5,6 +5,13 @@ import { PLAYERS } from '../data/players';
 
 const NUM_INCORRECT_ANSWERS = 3;
 
+/**
+ * Given the currently seleted player, derive some incorrect answers for the quiz type
+ * This is a thunk because it needs the current player to set the answers up
+ *
+ * @param type
+ * @returns {Function}
+ */
 export function quizPlayer(type) {
   return (dispatch, getState) => {
     const { player } = getState();
@@ -13,7 +20,6 @@ export function quizPlayer(type) {
       type: QUIZ,
       payload: {
         type,
-        correct: '',
         incorrect: []
       }
     };
@@ -21,17 +27,14 @@ export function quizPlayer(type) {
     switch(type) {
 
       case 'country': {
-        toDispatch.payload.correct = player.country;
         toDispatch.payload.incorrect = getIncorrectCountries(player);
         break;
       }
       case 'name': {
-        toDispatch.payload.correct = player.name;
         toDispatch.payload.incorrect = getIncorrectPlayerNames(player);
         break;
       }
       case 'number': {
-        toDispatch.payload.correct = player.number;
         toDispatch.payload.incorrect = getIncorrectSquadNumbers(player);
         break;
       }
@@ -44,6 +47,12 @@ export function quizPlayer(type) {
   }
 }
 
+/**
+ * Get a random list of players from the same team (not inc player)
+ *
+ * @param player
+ * @returns {any[]}
+ */
 const getIncorrectPlayerNames = (player) => {
 
   const teamMates = PLAYERS.filter(incorrectPlayer =>
@@ -54,6 +63,12 @@ const getIncorrectPlayerNames = (player) => {
   return _.sampleSize(teamMates, NUM_INCORRECT_ANSWERS).map(incorrectPlayer => incorrectPlayer.name);
 };
 
+/**
+ * Get a random list of countries (not inc player's)
+ *
+ * @param player
+ * @returns {Array}
+ */
 const getIncorrectCountries = (player) => {
 
   return _.sampleSize(
@@ -62,6 +77,12 @@ const getIncorrectCountries = (player) => {
   );
 };
 
+/**
+ * Get a random list of squad numbers (not inc player's or 0)
+ *
+ * @param player
+ * @returns {Array}
+ */
 const getIncorrectSquadNumbers = (player) => {
-  return _.sampleSize(_.difference(Array.from(Array(20).keys()).map(num => num.toString()), player.number), NUM_INCORRECT_ANSWERS);
+  return _.sampleSize(_.without(Array.from(Array(20).keys()).map(num => num.toString()), '0', player.number.toString()), NUM_INCORRECT_ANSWERS);
 };

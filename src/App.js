@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Picker from './components/picker';
+import QuizContainer from './components/quiz-container';
 
 import reducers from './reducers';
 import { Provider } from 'react-redux';
@@ -26,7 +26,7 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Welcome to Vlad</h1>
           </header>
-          <Picker />
+          <QuizContainer />
         </div>
       </Provider>
     );
