@@ -52,6 +52,17 @@ class Picker extends Component {
     return <PlayerInfo player={this.props.player}/>;
   }
 
+  renderQuiz() {
+
+    // no quiz if we're showing info
+    if (this.state.infoVisible) {
+      return '';
+    }
+
+    return this.props.quiz === null ? <QuizPicker/> : <QuizQuestions/>;
+  }
+
+
   render() {
     if (!this.props.player) {
       return <div>loading..</div>
@@ -63,7 +74,7 @@ class Picker extends Component {
       <div>
         <img src={image} alt="player" className="player-image"/>
         <div>Points: {this.props.points}</div>
-        {this.props.quiz !== null ? <QuizQuestions /> : <QuizPicker />}
+        {this.renderQuiz()}
         <div>
           {this.renderButtons()}
           {this.renderPlayerInfo()}
