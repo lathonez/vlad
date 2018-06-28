@@ -18,6 +18,7 @@ class QuizPicker extends Component {
     return (
       <div>
         <h3>Quiz</h3>
+        <h4>What category can you guess?</h4>
         {quiz}
       </div>
     );

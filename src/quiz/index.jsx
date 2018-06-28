@@ -64,8 +64,10 @@ class Picker extends Component {
         <img src={image} alt="player" className="player-image"/>
         <div>Points: {this.props.points}</div>
         {this.props.quiz !== null ? <QuizQuestions /> : <QuizPicker />}
-        {this.renderButtons()}
-        {this.renderPlayerInfo()}
+        <div>
+          {this.renderButtons()}
+          {this.renderPlayerInfo()}
+        </div>
       </div>
     );
   }
