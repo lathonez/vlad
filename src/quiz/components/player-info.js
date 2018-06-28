@@ -1,13 +1,8 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { PureComponent } from 'react';
 
-class PlayerInfo extends Component {
+export default class PlayerInfo extends PureComponent {
 
   render() {
-
-    if (!this.props.player.infoVisible) {
-      return '';
-    }
 
     const { name, number, position, dateOfBirth, caps, goals, clubCountry, club, country, group } = this.props.player;
 
@@ -29,9 +24,3 @@ class PlayerInfo extends Component {
     );
   }
 }
-
-const mapStateToProps = state => {
-  return { player: state.player };
-};
-
-export default connect(mapStateToProps, null)(PlayerInfo);

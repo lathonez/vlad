@@ -1,9 +1,16 @@
 import _ from 'lodash';
 
-import { QUIZ } from './index';
-import { PLAYERS } from '../data/players';
+import { ANSWER, QUIZ } from '../types';
+import { PLAYERS } from '../../../_constants/players';
 
 const NUM_INCORRECT_ANSWERS = 3;
+
+export function answer(correct, points) {
+  return {
+    type: ANSWER,
+    payload: { correct, points }
+  }
+}
 
 /**
  * Given the currently seleted player, derive some incorrect answers for the quiz type
@@ -14,7 +21,7 @@ const NUM_INCORRECT_ANSWERS = 3;
  */
 export function quizPlayer(type) {
   return (dispatch, getState) => {
-    const { player } = getState();
+    const { player } = getState().quiz;
 
     let toDispatch = {
       type: QUIZ,

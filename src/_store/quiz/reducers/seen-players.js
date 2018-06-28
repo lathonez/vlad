@@ -1,4 +1,4 @@
-import { SAMPLE_PLAYER } from '../actions';
+import { SAMPLE_PLAYER } from '../types';
 
 export default function(state = [], action) {
 

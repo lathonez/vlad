@@ -1,8 +1,8 @@
-import { QUIZ_CATEGORIES } from '../data/quiz';
+import { QUIZ_CATEGORIES } from '../../_constants/quiz';
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { quizPlayer } from '../actions/quiz';
+import { quizPlayer } from '../../_store/quiz/actions/quiz';
 
 class QuizPicker extends Component {
 
@@ -12,26 +12,16 @@ class QuizPicker extends Component {
 
   render() {
 
-    // don't show the quiz picker if we've got a quiz
-    if (this.props.quiz || this.props.player.infoVisible) {
-      return '';
-    }
-
     const quiz = Object.entries(QUIZ_CATEGORIES)
       .map(([key, { label, points }]) => this.renderQuizButton(key, label, points));
 
     return (
       <div>
-        <hr/>
         <h3>Quiz</h3>
         {quiz}
       </div>
     );
   }
-};
+}
 
-const mapStateToProps = state => {
-  return { quiz: state.quiz, player: state.player };
-};
-
-export default connect(mapStateToProps, { quizPlayer })(QuizPicker);
+export default connect(null, { quizPlayer })(QuizPicker);

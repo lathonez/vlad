@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { SAMPLE_PLAYER } from './index';
-import { PLAYERS } from '../data/players';
+import { SAMPLE_PLAYER } from '../types';
+import { PLAYERS } from '../../../_constants/players';
 
 /**
  * Pick a player that we haven't seen before and mark it as selected
@@ -49,11 +49,11 @@ const _samplePlayer = (seenPlayers) => _.sample(_.reject(PLAYERS, player => _.in
 const augmentPlayer = (player) => {
 
   if (!player) {
-    return;
+    return Promise.resolve(null);
   }
 
   // eslint-disable-next-line
-  return import(`../images/players/${getImageName(player.name)}.jpg`)
+  return import(`../../../images/players/${getImageName(player.name)}.jpg`)
     .then(image => {
       player.image = image;
       return player;

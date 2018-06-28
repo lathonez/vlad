@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import { QUIZ_CATEGORIES } from '../data/quiz';
-import { answer } from '../actions';
+import { QUIZ_CATEGORIES } from '../../_constants/quiz';
+import { answer } from '../../_store/quiz/actions/quiz';
 import { bindActionCreators } from 'redux';
-import { samplePlayer } from '../actions/sample';
+import { samplePlayer } from '../../_store/quiz/actions/sample-player';
 
 class QuizQuestions extends Component {
 
@@ -14,6 +14,21 @@ class QuizQuestions extends Component {
 
   getCorrectAnswer() {
     return this.props.player[this.props.quiz.type];
+  }
+
+  renderQuestionBlurb() {
+
+    // do not show question blurb if quiz is answered
+    if (this.props.quiz.answered) {
+      return '';
+    }
+
+    return (
+      <div>
+        <h3>What is this player's {this.getQuizItem('label')}?</h3>
+        <h5>Answer correctly for {this.getQuizItem('points')} points</h5>
+      </div>
+    );
   }
 
   renderAnswerBlurb() {
@@ -47,22 +62,11 @@ class QuizQuestions extends Component {
   }
 
   render() {
-
-    // don't show the quiz questions if there's no quiz state set
-    if (!this.props.quiz || this.props.player.infoVisible) {
-      return '';
-    }
-
-    const nextButton = this.props.quiz.answered ? <div><hr/><button onClick={() => this.props.samplePlayer(false)}>Next</button></div> : '';
-
     return (
       <div>
-        <hr/>
-        <h3>What is this player's {this.getQuizItem('label')}?</h3>
-        <h5>Answer correctly for {this.getQuizItem('points')} points</h5>
+        {this.renderQuestionBlurb()}
         {this.renderButtons()}
         {this.renderAnswerBlurb()}
-        {nextButton}
       </div>
     )
   }
@@ -75,7 +79,7 @@ function mapDispatchToProps(dispatch) {
 }
 
 const mapStateToProps = state => {
-  return { quiz: state.quiz, player: state.player };
+  return { quiz: state.quiz.quiz, player: state.quiz.player };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(QuizQuestions);

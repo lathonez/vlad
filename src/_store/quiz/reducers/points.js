@@ -1,4 +1,4 @@
-import { ANSWER, SAMPLE_PLAYER } from '../actions';
+import { ANSWER, SAMPLE_PLAYER } from '../types';
 
 export default function(state = 0, action) {
   switch (action.type) {
