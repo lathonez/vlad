@@ -3,10 +3,11 @@ import createSagaMiddleware from 'redux-saga';
 import { reducer as formReducer } from 'redux-form';
 import quizReducer from './quiz/reducers';
 import thunk from 'redux-thunk';
+import quizSagas from './quiz/sagas';
 
 const appReducer = combineReducers({
   form: formReducer,
-  quiz: quizReducer,
+  game: quizReducer,
 });
 
 const sagaMiddleware = createSagaMiddleware();
@@ -30,7 +31,7 @@ export default function configureStore() {
     ),
   );
 
-  // sagaMiddleware.run(teamsSagas);
+  sagaMiddleware.run(quizSagas);
 
   return store;
 }

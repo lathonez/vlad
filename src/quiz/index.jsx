@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { samplePlayer } from '../_store/quiz/actions/sample-player';
 import QuizQuestions from './containers/questions';
 import PlayerInfo from './components/player-info';
-import QuizPicker from './containers/picker';
+import QuizPicker from './components/picker';
+import { QUIZ, SAMPLE_PLAYER } from '../_store/quiz/types';
 
 class Picker extends Component {
 
@@ -12,24 +12,18 @@ class Picker extends Component {
   };
 
   componentDidMount() {
-    this.props.samplePlayer();
+    this.props.samplePlayer(false);
   }
 
-  /**
-   * E.g. next or skip - if skipped points will be minused
-   *
-   * @param skipped
-   */
   onSkip(skipped) {
     this.setState({infoVisible: false});
     this.props.samplePlayer(skipped);
   }
 
-  /**
-   * Responsible for next and skip buttons
-   *
-   * @returns {*}
-   */
+  onQuiz(type) {
+    return this.props.pickQuiz(type, this.props.player);
+  }
+
   renderButtons() {
     const nextAble = this.props.quiz && this.props.quiz.answered;
     const { infoVisible } = this.state;
@@ -59,7 +53,7 @@ class Picker extends Component {
       return '';
     }
 
-    return this.props.quiz === null ? <QuizPicker/> : <QuizQuestions/>;
+    return this.props.quiz === null ? <QuizPicker click={this.onQuiz.bind(this)}/> : <QuizQuestions/>;
   }
 
 
@@ -84,8 +78,17 @@ class Picker extends Component {
   }
 }
 
+const mapDispatchToProps = dispatch => ({
+  samplePlayer: (skipped) => dispatch({ type: SAMPLE_PLAYER, payload: { skipped } }),
+  pickQuiz: (type, player) => dispatch({ type: QUIZ, payload: { type, player } })
+});
+
 const mapStateToProps = state => {
-  return { player: state.quiz.player, quiz: state.quiz.quiz, points: state.quiz.points };
+  return {
+    player: state.game.player.selected,
+    quiz: state.game.quiz,
+    points: state.game.points
+  };
 };
 
-export default connect(mapStateToProps,  { samplePlayer })(Picker);
+export default connect(mapStateToProps, mapDispatchToProps)(Picker);

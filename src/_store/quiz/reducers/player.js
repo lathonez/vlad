@@ -1,9 +1,17 @@
-import { SAMPLE_PLAYER } from '../types';
+import { PLAYER_SELECTED } from '../types';
 
-export default function(state = {}, action) {
+const initialState = {
+  history: [],
+  selected: null
+};
+
+export default function(state = initialState, action) {
   switch (action.type) {
-    case SAMPLE_PLAYER:
-      return action.payload.player;
+    case PLAYER_SELECTED:
+      return {
+        history: [...state.history, action.payload.player.name],
+        selected: action.payload.player
+      };
     default:
       return state;
   }

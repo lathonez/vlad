@@ -1,13 +1,10 @@
 import { QUIZ_CATEGORIES } from '../../_constants/quiz';
+import React, { PureComponent } from 'react';
 
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { quizPlayer } from '../../_store/quiz/actions/quiz';
-
-class QuizPicker extends Component {
+export default class QuizPicker extends PureComponent {
 
   renderQuizButton = (type, label, points) => {
-    return <button key={type} onClick={() => this.props.quizPlayer(type)}>{label} ({points})</button>
+    return <button key={type} onClick={() => this.props.click(type)}>{label} ({points})</button>
   };
 
   render() {
@@ -24,5 +21,3 @@ class QuizPicker extends Component {
     );
   }
 }
-
-export default connect(null, { quizPlayer })(QuizPicker);

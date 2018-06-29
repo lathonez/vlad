@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
 import { QUIZ_CATEGORIES } from '../../_constants/quiz';
-import { answer } from '../../_store/quiz/actions/quiz';
-import { bindActionCreators } from 'redux';
-import { samplePlayer } from '../../_store/quiz/actions/sample-player';
+import { ANSWER } from '../../_store/quiz/types';
 
 class QuizQuestions extends Component {
 
@@ -45,7 +43,7 @@ class QuizQuestions extends Component {
   }
 
   renderButton(answer) {
-    const click = () => this.props.answerAction(answer === this.getCorrectAnswer(), this.getQuizItem('points'));
+    const click = () => this.props.answer(answer === this.getCorrectAnswer(), this.getQuizItem('points'));
     return <button key={answer} onClick={click}>{answer}</button>;
   }
 
@@ -72,14 +70,12 @@ class QuizQuestions extends Component {
   }
 }
 
-// Anything returned from this function will end up as props on the book list container
-function mapDispatchToProps(dispatch) {
-  // whenever selectBook is called, the result should be passed to all of our reducers
-  return bindActionCreators({ answerAction: answer, samplePlayer }, dispatch);
-}
+const mapDispatchToProps = dispatch => ({
+  answer: (correct, points) => dispatch({ type: ANSWER, payload: { correct, points }}),
+});
 
 const mapStateToProps = state => {
-  return { quiz: state.quiz.quiz, player: state.quiz.player };
+  return { quiz: state.game.quiz, player: state.game.player.selected };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(QuizQuestions);
